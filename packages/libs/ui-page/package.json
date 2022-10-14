@@ -1,0 +1,14 @@
+{
+  "name": "@example/ui-page",
+  "version": "1.0.0",
+  "homepage": "",
+  "main": "src/index.ts",
+  "typings": "src/index.ts",
+  "sideEffects": false,
+  "dependencies": {
+    "@example/ui-logo": "1.0.0"
+  },
+  "peerDependencies": {
+    "react": "18.2.0"
+  }
+}

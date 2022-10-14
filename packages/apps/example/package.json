@@ -1,0 +1,26 @@
+{
+  "name": "@example/app-example",
+  "version": "1.0.0",
+  "homepage": "",
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "esm"
+  ],
+  "scripts": {
+    "develop": "webpack-dev-server"
+  },
+  "peerDependencies": {
+    "react": "17.0.2"
+  },
+  "dependencies": {
+    "@example/ui-logo": "1.0.0",
+    "@example/ui-page": "1.0.0",
+    "@example/ui-spinner": "1.0.0"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "4.11.1"
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "name": "@example/tsconfig-rules",
+    "version": "1.0.0",
+    "homepage": "",
+    "sideEffects": false,
+    "main": "tsconfig.json"
+}

@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "rootDirs": ["../../../"],
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": false,
+    "strict": true,
+    "jsx": "react-jsx",
+    "noFallthroughCasesInSwitch": true,
+    "module": "commonjs",
+    "target": "es2019",
+    "lib": ["es2019", "es6", "dom", "dom.iterable"],
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "types": ["node"]
+  },
+  "exclude": ["node_modules", "lib"]
+}

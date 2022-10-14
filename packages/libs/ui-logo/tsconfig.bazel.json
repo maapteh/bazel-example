@@ -1,0 +1,12 @@
+{
+  "extends": "../../tools/tsconfig-rules/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "esm",
+    "rootDir": "src",
+    "module": "ESNext",
+    "moduleResolution": "Node"
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "esm", "*.stories.ts", "*.stories.tsx"]
+}
