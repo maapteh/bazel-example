@@ -2,6 +2,12 @@ node_modules
 dist
 esm
 
+.DS_Store
+.idea
+.env
+*.tsbuildinfo
+*.tgz
+
 .yarn/*
 !.yarn/patches
 !.yarn/plugins

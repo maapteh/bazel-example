@@ -8,5 +8,9 @@
     "moduleResolution": "Node"
   },
   "include": ["src"],
-  "exclude": ["node_modules", "esm", "*.stories.ts", "*.stories.tsx"]
+  "exclude": ["node_modules", "esm", "*.stories.ts", "*.stories.tsx"],
+  "references": [
+    { "path": "../../libs/ui-page" },
+    { "path": "../../libs/ui-spinner" }
+  ]
 }

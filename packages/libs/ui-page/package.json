@@ -10,5 +10,12 @@
   },
   "peerDependencies": {
     "react": "18.2.0"
+  },
+  "devDependencies": {
+    "typescript": "4.7.4"
+  },
+  "scripts": {
+    "clean": "rm -rf esm && rm -rf *.tsbuildinfo",
+    "build": "tsc -b tsconfig.bazel.json"
   }
 }
