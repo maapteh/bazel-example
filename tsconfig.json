@@ -20,9 +20,9 @@
     "rootDir": "./",
     "baseUrl": "./",
     "paths": {
-      "@example/ui-logo": ["packages/libs/ui-logo/src/index"],
-      "@example/ui-spinner": ["packages/libs/ui-spinner/src/index"],
-      "@example/ui-page": ["packages/libs/ui-page/src/index"]
+      "@example/ui-logo": ["packages/libs/ui-logo"],
+      "@example/ui-spinner": ["packages/libs/ui-spinner"],
+      "@example/ui-page": ["packages/libs/ui-page"]
     }
   }
 }
