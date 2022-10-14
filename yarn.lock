@@ -261,9 +261,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@example/tsconfig-rules@workspace:packages/tools/tsconfig-rules":
+"@example/tsconfig-rules@workspace:packages/internals/tsconfig-rules":
   version: 0.0.0-use.local
-  resolution: "@example/tsconfig-rules@workspace:packages/tools/tsconfig-rules"
+  resolution: "@example/tsconfig-rules@workspace:packages/internals/tsconfig-rules"
   languageName: unknown
   linkType: soft
 

@@ -8,6 +8,7 @@
 .
 ├── apps
 │   └── example         - one example app
+├── internals           - internal toolings like eslint/esconfig/jest
 ├── libs                - shared libraries
 │   ├── ui-logo
 │   ├── ui-page         - sample with reference to library ui-logo

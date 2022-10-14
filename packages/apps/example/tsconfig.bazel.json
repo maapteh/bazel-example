@@ -1,5 +1,5 @@
 {
-  "extends": "../../tools/tsconfig-rules/tsconfig.json",
+  "extends": "../../internals/tsconfig-rules/tsconfig.json",
   "compilerOptions": {
     "baseUrl": ".",
     "outDir": "esm",
