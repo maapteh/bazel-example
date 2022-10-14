@@ -10,7 +10,10 @@
     "esm"
   ],
   "scripts": {
-    "develop": "webpack-dev-server"
+    "develop": "yarn serve:develop",
+    "serve:develop": "webpack-dev-server",
+    "serve:production": "webpack-dev-server --mode production",
+    "build": "NODE_ENV=production webpack --config webpack.prod.js"
   },
   "peerDependencies": {
     "react": "17.0.2"
@@ -21,6 +24,7 @@
     "@example/ui-spinner": "1.0.0"
   },
   "devDependencies": {
+    "webpack": "5.74.0",
     "webpack-dev-server": "4.11.1"
   }
 }

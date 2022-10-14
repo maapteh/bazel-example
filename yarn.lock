@@ -255,6 +255,7 @@ __metadata:
     "@example/ui-logo": 1.0.0
     "@example/ui-page": 1.0.0
     "@example/ui-spinner": 1.0.0
+    webpack: 5.74.0
     webpack-dev-server: 4.11.1
   peerDependencies:
     react: 17.0.2

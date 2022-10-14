@@ -1,6 +1,6 @@
-import React, { PropsWithChildren } from "react";
-import { Box } from "@mui/system";
-import { Logo } from "@example/ui-logo";
+import React, { PropsWithChildren } from 'react';
+import { Box } from '@mui/system';
+import { Logo } from '@example/ui-logo';
 
 type Props = {} & PropsWithChildren;
 

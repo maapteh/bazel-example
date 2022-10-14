@@ -1,4 +1,6 @@
 node_modules
+dist
+esm
 
 .yarn/*
 !.yarn/patches
@@ -6,3 +8,4 @@ node_modules
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+.yarn/install-state.gz
