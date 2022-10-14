@@ -15,3 +15,5 @@ esm
 !.yarn/sdks
 !.yarn/versions
 .yarn/install-state.gz
+
+/bazel-*
